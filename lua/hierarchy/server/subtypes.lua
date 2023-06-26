@@ -1,5 +1,5 @@
-Searcher = RELOAD('hierarchy.server.search')
-ClassNode = RELOAD('hierarchy.server.class_node')
+Searcher = reload('hierarchy.server.search')
+ClassNode = reload('hierarchy.server.class_node')
 
 Subtypes = Searcher:new()
 

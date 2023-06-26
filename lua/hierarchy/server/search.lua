@@ -1,8 +1,8 @@
 --[[ ──────────────────────── imports and aliases ───────────────────────── ]]--
 ---@module 'docs'
 
-local prepare = RELOAD('hierarchy.server.prepare')
-local utils = RELOAD('hierarchy.server.utils')
+local prepare = reload('hierarchy.server.prepare')
+local utils = reload('hierarchy.server.utils')
 
 local validate = vim.validate
 
@@ -172,7 +172,7 @@ end
 
 
 ---Builds a list of parent/children classes nodes for a symbol, then run an
----on the 
+---on the
 ---
 ---@param params {item: lsp_hierarchy_item}
 function Searcher:start(params)

@@ -1,5 +1,5 @@
 --[[ ───────────────────────── imports / aliases ────────────────────────── ]]--
-local utils = RELOAD('hierarchy.server.utils')
+local utils = reload('hierarchy.server.utils')
 
 
 --[[ ───────────────────────────── Class Node ───────────────────────────── ]]--
